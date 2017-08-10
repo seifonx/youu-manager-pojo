@@ -7,4 +7,15 @@
   </parent>
   <groupId>com.youu.manager.pojo</groupId>
   <artifactId>youu-manager-pojo</artifactId>
+  
+  
+  <dependencies>
+  	
+		<!-- 通用mapper -->
+		<dependency>
+			<groupId>com.github.abel533</groupId>
+			<artifactId>mapper</artifactId>
+		</dependency>
+  
+  </dependencies>
 </project>

@@ -1,5 +1,8 @@
 package com.youu.youu.manager.bean;
 
+import javax.persistence.Table;
+
+@Table(name="test")
 public class Ttest {
     private Integer id;
 
