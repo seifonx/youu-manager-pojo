@@ -1,6 +1,14 @@
 package com.youu.youu.manager.bean;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table(name="t_journey_plan")
 public class TJourneyPlan {
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Id
     private Integer id;
 
     private Integer customerNum;

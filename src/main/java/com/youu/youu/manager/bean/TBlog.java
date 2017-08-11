@@ -1,6 +1,14 @@
 package com.youu.youu.manager.bean;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table(name="t_blog")
 public class TBlog {
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Id
     private Integer blogId;
 
     private Integer userId;

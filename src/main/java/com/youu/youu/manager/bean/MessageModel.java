@@ -2,7 +2,12 @@ package com.youu.youu.manager.bean;
 
 import java.util.Date;
 
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table(name="message_model")
 public class MessageModel {
+	@Id
     private Integer id;
 
     private Integer managerid;

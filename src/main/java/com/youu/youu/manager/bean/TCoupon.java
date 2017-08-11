@@ -1,6 +1,14 @@
 package com.youu.youu.manager.bean;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table(name="t_coupon")
 public class TCoupon {
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Id
     private Integer id;
 
     private String couponCart;

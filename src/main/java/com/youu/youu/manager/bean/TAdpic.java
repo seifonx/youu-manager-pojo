@@ -1,5 +1,7 @@
 package com.youu.youu.manager.bean;
 
+import javax.persistence.Table;
+@Table(name="t_adpic")
 public class TAdpic {
     private Integer id;
 

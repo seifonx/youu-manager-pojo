@@ -1,5 +1,8 @@
 package com.youu.youu.manager.bean;
 
+import javax.persistence.Table;
+
+@Table
 public class TJourneySceni {
     private Integer scenicId;
 

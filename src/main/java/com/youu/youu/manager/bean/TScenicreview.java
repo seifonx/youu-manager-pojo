@@ -1,5 +1,8 @@
 package com.youu.youu.manager.bean;
 
+import javax.persistence.Table;
+
+@Table(name="t_scenicreview")
 public class TScenicreview {
     private Integer id;
 

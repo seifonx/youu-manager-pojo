@@ -1,6 +1,11 @@
 package com.youu.youu.manager.bean;
 
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table(name="t_manager")
 public class TManager {
+	@Id
     private Integer phoneNum;
 
     private String userpswd;

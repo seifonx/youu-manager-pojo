@@ -1,6 +1,12 @@
 package com.youu.youu.manager.bean;
 
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table(name="t_scenicdetails")
 public class TScenicdetails {
+
+	@Id
     private Integer scenicId;
 
     private String scenicName;
