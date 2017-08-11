@@ -8,7 +8,7 @@ public class TManagerRole {
 	@Id
     private Integer id;
 
-    private Integer managerid;
+    private String managerid;
 
     private Integer roleid;
 
@@ -20,11 +20,11 @@ public class TManagerRole {
         this.id = id;
     }
 
-    public Integer getManagerid() {
+    public String getManagerid() {
         return managerid;
     }
 
-    public void setManagerid(Integer managerid) {
+    public void setManagerid(String managerid) {
         this.managerid = managerid;
     }
 
