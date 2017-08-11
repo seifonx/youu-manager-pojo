@@ -1,6 +1,11 @@
 package com.youu.youu.manager.bean;
 
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table(name="t_role")
 public class TRole {
+	@Id
     private Integer id;
 
     private String roleName;

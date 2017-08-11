@@ -1,6 +1,11 @@
 package com.youu.youu.manager.bean;
 
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table(name="t_user")
 public class TUser {
+	@Id
     private Integer id;
 
     private String loginacct;
